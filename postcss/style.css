@@ -1,0 +1,11 @@
+@custom-media --zero screen and (width >= 320px)
+@custom-media --one screen and (width >= 768px)
+@custom-media --oneplus screen and (width >= 992px)
+@custom-media --avarage  screen and (width >= 1024px)
+@custom-media --infinity screen and (width >= 1200px)
+
+@import "bulma"
+
+
+body
+  background-color: #cfc

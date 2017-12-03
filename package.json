@@ -1,0 +1,28 @@
+{
+  "name": "basta",
+  "version": "1.0.0",
+  "description": "Quick start postcss and livereload",
+  "main": "index.js",
+  "scripts": {
+    "css": "postcss postcss/style.css -o css/output.css --watch",
+    "live": "browser-sync start --server --files \"css/*.css\"",
+    "babel": "babel js/main.js -o js/bundle.js --watch"
+  },
+  "keywords": ["postcss", "browser-sync"],
+  "author": "Khangeldy Ilebaev <hongeldon@inbox.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "browser-sync": "^2.18.13",
+    "npm-run-all": "^4.1.2",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "sugarss": "^1.0.1"
+  },
+  "dependencies": {
+    "bulma": "^0.6.1"
+  }
+}
