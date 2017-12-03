@@ -4,6 +4,7 @@
   "description": "Quick start postcss and livereload",
   "main": "index.js",
   "scripts": {
+    "start": "node watch.js",
     "css": "postcss postcss/style.css -o css/output.css --watch",
     "live": "browser-sync start --server --files \"css/*.css\"",
     "babel": "babel js/main.js -o js/bundle.js --watch"
